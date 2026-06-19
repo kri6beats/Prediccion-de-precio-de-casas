@@ -1,5 +1,5 @@
 # app.py
-
+import predict.py
 import streamlit as st
 import pandas as pd
 import joblib
@@ -18,7 +18,7 @@ st.set_page_config(
 # CARGA DEL MODELO
 # ============================
 
-modelo = joblib.load("modelo.pkl")
+modelo = joblib.load("predict.py")
 
 # ============================
 # TÍTULO
